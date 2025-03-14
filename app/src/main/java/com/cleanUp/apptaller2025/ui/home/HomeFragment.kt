@@ -36,7 +36,8 @@ class HomeFragment : Fragment() {
 
 
         binding.buttonLogin.setOnClickListener{
-            val toast = Toast.makeText(context, "Bienvenido", Toast.LENGTH_SHORT)
+            val nombre = binding.editTextText.text.toString();
+            val toast = Toast.makeText(context, "Bienvenido" + nombre, Toast.LENGTH_SHORT)
             toast.show()
         }
 
