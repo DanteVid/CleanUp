@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.cleanUp.apptaller2025.databinding.FragmentHomeBinding
@@ -33,6 +34,11 @@ class HomeFragment : Fragment() {
         //-------------------------------------------------------
 
 
+
+        binding.buttonLogin.setOnClickListener{
+            val toast = Toast.makeText(context, "Bienvenido", Toast.LENGTH_SHORT)
+            toast.show()
+        }
 
         //-------------------------------------------------------
 
