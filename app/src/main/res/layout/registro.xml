@@ -5,25 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Nombre y apellido"
-        android:inputType="text"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="242dp" />
-
-    <EditText
-        android:id="@+id/editTextText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Email"
-        android:inputType="text"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="287dp" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="159dp"
+        android:layout_height="47dp"
+        android:text="Registro"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="38dp" />
 
     <EditText
         android:id="@+id/editTextText4"
@@ -32,18 +21,8 @@
         android:ems="10"
         android:hint=" Cédula de Cuidadania"
         android:inputType="text"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="332dp" />
-
-    <EditText
-        android:id="@+id/editTextText5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Celular"
-        android:inputType="text"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="374dp" />
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="215dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword4"
@@ -53,8 +32,8 @@
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="419dp" />
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="302dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword5"
@@ -64,14 +43,44 @@
         android:ems="10"
         android:hint="Confirmar contraseña"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="472dp" />
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Celular"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre y apellido"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="125dp" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Celular" />
+        android:text="Registro" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -79,31 +88,23 @@
         android:layout_height="wrap_content"
         android:text="Acepto los terminos y condiciones de uso."
         tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="525dp" />
+        tools:layout_editor_absoluteY="446dp" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="336dp"
         android:layout_height="80dp"
-        android:layout_marginBottom="76dp"
+        android:layout_marginBottom="144dp"
         android:text="Autorizo el tratamiento de mis datos personales conforme a la Política de Privacidad."
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="44dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="74dp"
-        android:layout_height="26dp"
-        android:text="Registro"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="149dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Registrar"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="669dp" />
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="623dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
